@@ -14,6 +14,7 @@ list = [a,b,c,d,e]
 ```bash
 list[1]                 // → b
 list.indexOf(b)         // → 1
+lsit.lastIndexOf(b)     // → 1
 ```
 
 ### Subsets
@@ -95,4 +96,5 @@ list.splice(2, 1)       // → [c]  list == [a,b,d,e]
 .map(n => ...)   // ie9+
 .reduce((total, n) => total) // ie9+
 .reduceRight(...)
+.forEach(n=> ...)
 ```
